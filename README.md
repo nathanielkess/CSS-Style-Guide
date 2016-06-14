@@ -5,7 +5,7 @@ A component based CSS style guide taking cues primarily from SMACSS. High-level 
 1. [General principles](#general-principles)
   1. [Components](#Components)
   2. [Layout](#Layout)
-2. Do's and Don'ts
+2. [Do's and Don'ts](#doDont)
 3. [Formatting](#Format)
 
 
@@ -40,12 +40,13 @@ Other examples of a components include:
 * search bars
 
 <a name="Layout"></a>
-##Layout 
+####Layout 
 The layout portion of theming can be thought of as a layer that scaffolds the page’s higher parent level elements. Eg page header, page footer, main body content, sidebars etc.  (BEM refers to these as "Blocks").This is the appropriate place to define widths and positions.  Parent level elements also house "components" so, for example, a **twitter widget component** might live inside a **side bar parent level element**. This, in a sense, means that the layout layer controls the position and sizing of everything (excluding the guts of a component; that is defined at the component level).
 
-Having the **layout layer** separate from the **defined components** allows developers to be flexible in their choice of implementation. For example, the layout layer can be done entirely with a CSS grid framework like Bootstrap. Or, for the purist (like me), you can code up the layout as a separate section in your CSS.  As long as the components are defined well, they will live amongst the scaffold layout and conform to their parent elements. Follow the Do’s and Don’ts below on how to define components. 
+Having the **layout layer** separate from the **defined components** allows developers to be flexible in their choice of implementation. For example, the layout layer can be done entirely with a CSS grid framework like Bootstrap. Or, for the purist (like me), you can code up the layout as a separate section in your CSS.  As long as the components are [defined well](#doDont), they will live amongst the scaffold layout and conform to their parent elements. Follow the Do’s and Don’ts below on how to define components. 
 
 
-
+<a name="doDont"></a>
+## 1. Do's and Don'ts
 
 
