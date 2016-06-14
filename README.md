@@ -1,7 +1,7 @@
 # CSS-Style-Guide
 A component based CSS style guide taking cues primarily from [SMACSS](https://smacss.com/). High-level principals and formatting assumptions are used to balance consistency with flexible decision making. 
 
-## Table of contents
+####Table of contents
 1. [General principles](#general-principles)
   1. [Components](#Components)
   2. [Layout](#Layout)
