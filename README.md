@@ -11,7 +11,7 @@ A component based CSS style guide taking cues primarily from SMACSS. High-level 
 
 <a name="general-principles"></a>
 ## 1. General principles
-Separate components and layout: 
+Separate **components** and **layout**: 
 * Define page components as standalone pieces that are unaware of their position or size. 
 * Apply a layout layer to position and size components on a page,.
 
