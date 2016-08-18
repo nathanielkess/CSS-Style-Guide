@@ -9,7 +9,7 @@ A component based CSS style guide taking cues primarily from [SMACSS](https://sm
 2. [Do's and Don'ts](#doDont)
 3. [Formatting](#Format)
 
-
+<!--
 <a name="general-principles"></a>
 ## 1. General principles
 Separate **components** and **layout**: 
@@ -67,3 +67,4 @@ Class names **should not** describe the physical appearence of their content. (A
 ## 2. Do's and Don'ts
 
 
+-->
